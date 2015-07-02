@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Install Selfie Photographer</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+	<style>
+		.toggleButton {
+			height:22px;
+			width:70px;
+		}
+		.bs-docs-header {
+			padding-top: 60px;
+			padding-bottom: 60px;
+			font-size: 24px;
+			text-align: left;
+			padding: 30px 15px;
+			color: #cdbfe3;
+			text-shadow: 0 1px 0 rgba(0,0,0,.1);
+			background-color: #6f5499;
+		}
+
+	</style>
+
+	<script>
+
+		function getParameterByName(name) {
+		    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+		    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+		        results = regex.exec(location.search);
+		    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
+
+		$("document").ready(function() {
+
+			console.log("...");
+			if( getParameterByName("userToken")  != null && getParameterByName("userToken") !== "") {
+				console.log("......");
+				$("body, html").scrollTop($('#androidApp').offset().top - 60);
+			};
+
+		});
+
+	</script>
+
+  </head>
+  <body>
+	<!--
+	    <header class="navbar navbar-static-top bs-docs-nav" style="margin-bottom:0px" id="top" role="banner">
+	-->
+    <header class="navbar navbar-default navbar-fixed-top" style="margin-bottom:0px" role="navigation">
+	  <div class="container">
+	    <div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+          	</button>
+
+	      	<a class="navbar-brand" href="http://studiobinghuan.blogspot.tw/?view=flipcard" target="_blank">
+	          	<img src="images/logo-36.png"> Studio Bing-Huan
+			</a>
+	    </div>
+        <div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+	            <li><a href="https://plus.google.com/u/0/115152468555703598500/posts" target="_blank">Contact</a></li>
+	      	</ul>
+	  	</div>
+	</header>
+
+	<div class="bs-docs-header" id="content">
+      <div class="container">
+        <h1 style="margin-top:60px">How to install the bookmark?</h1>
+        <p></p>
+      </div>
+    </div>
+
+	<div class="container">
+		<div class="page-header">
+	        <h3>Steps to Add this the bookmark to your bookmark bar</h3>
+	        <p></p>
+		</div>
+		<a style="font-size:24px" href='javascript:(function() {var sourceEditor = "//cdn.ckeditor.com/4.5.0/standard/ckeditor.js";var new_script = document.createElement("script");new_script.type = "text/javascript";new_script.src = sourceEditor;document.getElementsByTagName("head")[0].appendChild(new_script);console.log("JavaScript has been injected");var textAreaArray = document.getElementsByTagName("textarea");if (textAreaArray.length > 0) {for (var i = 0; i < textAreaArray.length; i++) {console.log("--> Ready to replace: " + textAreaArray[i].id);relaceEditor(textAreaArray[i].id)}}function relaceEditor(id) {var targetId = id;setTimeout(function() {console.log("Do --> Replacing: " + targetId);CKEDITOR.replace(targetId);console.log("OK --> Replacing: " + targetId);}, 3000);};function showSource(textAreaId) {console.log(">> showSource");console.log("source: " + textAreaArray[i].id);CKEDITOR.instances[textAreaArray[i].id].execCommand("source");}var htmlOption = document.getElementById("edit-format-1-1");if (htmlOption != null) {htmlOption.checked = true;}})();(function() {var sourceEditor = "//cdn.ckeditor.com/4.5.0/standard/ckeditor.js";var new_script = document.createElement("script");new_script.type = "text/javascript";new_script.src = sourceEditor;document.getElementsByTagName("head")[0].appendChild(new_script);console.log("JavaScript has been injected");var textAreaArray = document.getElementsByTagName("textarea");if (textAreaArray.length > 0) {for (var i = 0; i < textAreaArray.length; i++) {console.log("--> Ready to replace: " + textAreaArray[i].id);relaceEditor(textAreaArray[i].id)}}function relaceEditor(id) {var targetId = id;setTimeout(function() {console.log("Do --> Replacing: " + targetId);CKEDITOR.replace(targetId);console.log("OK --> Replacing: " + targetId);}, 3000);};function showSource(textAreaId) {console.log(">> showSource");console.log("source: " + textAreaArray[i].id);CKEDITOR.instances[textAreaArray[i].id].execCommand("source");}var htmlOption = document.getElementById("edit-format-1-1");if (htmlOption != null) {htmlOption.checked = true;}})();(function() {var sourceEditor = "//cdn.ckeditor.com/4.5.0/standard/ckeditor.js";var new_script = document.createElement("script");new_script.type = "text/javascript";new_script.src = sourceEditor;document.getElementsByTagName("head")[0].appendChild(new_script);console.log("JavaScript has been injected");var textAreaArray = document.getElementsByTagName("textarea");if (textAreaArray.length > 0) {for (var i = 0; i < textAreaArray.length; i++) {console.log("--> Ready to replace: " + textAreaArray[i].id);relaceEditor(textAreaArray[i].id)}}function relaceEditor(id) {var targetId = id;setTimeout(function() {console.log("Do --> Replacing: " + targetId);CKEDITOR.replace(targetId);console.log("OK --> Replacing: " + targetId);}, 3000);};function showSource(textAreaId) {console.log(">> showSource");console.log("source: " + textAreaArray[i].id);CKEDITOR.instances[textAreaArray[i].id].execCommand("source");}var htmlOption = document.getElementById("edit-format-1-1");if (htmlOption != null) {htmlOption.checked = true;}})();(function() {var sourceEditor = "//cdn.ckeditor.com/4.5.0/standard/ckeditor.js";var new_script = document.createElement("script");new_script.type = "text/javascript";new_script.src = sourceEditor;document.getElementsByTagName("head")[0].appendChild(new_script);console.log("JavaScript has been injected");function relaceEditor(id) {var targetId = id;setTimeout(function() {console.log("Do --> Replacing: " + targetId);CKEDITOR.replace(targetId);console.log("OK --> Replacing: " + targetId);}, 3000);};var textAreaArray = document.getElementsByTagName("textarea");if (textAreaArray.length > 0) {for (var i = 0; i < textAreaArray.length; i++) {console.log("--> Ready to replace: " + textAreaArray[i].id);relaceEditor(textAreaArray[i].id)}}function showSource(textAreaId) {console.log(">> showSource");console.log("source: " + textAreaArray[i].id);CKEDITOR.instances[textAreaArray[i].id].execCommand("source");}var htmlOption = document.getElementById("edit-format-1-1");if (htmlOption != null) {htmlOption.checked = true;}})();
+'>ShowBetterEditor
+		</a><span><== This is bookmark linker</span>
+		<div class="well">
+			<ol>
+				<li>
+					<p>Drag above bookmark link onto your bookmark bar.</p>
+				</li>
+				<li>
+					<p>On the page which contains testarea just press the bookmark on the same page.</p>
+				</li>
+
+			</ol>
+		</div>
+
+        <!--
+		<div class="page-header" id="androidApp">
+	        <h3>.</h3>
+	        <p>.</p>
+		</div>
+		<a href="https://play.google.com/store/apps/details?id=com.bh.android.selfietaker" target="_blank">
+			<img src="...">
+		</a>
+
+		<div class="well">
+			<ol>
+				<li>
+					<p></p>
+				</li>
+			</ol>
+		</div>-->
+	</div>
+  </body>
+</html>
