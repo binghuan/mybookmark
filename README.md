@@ -1,5 +1,7 @@
 MyBookmark
 ======
+![](./illustration.png)
+
 <p>
     link: <a href="http://binghuan.github.io/mybookmark/">http://binghuan.github.io/mybookmark/</a>
 </p>
